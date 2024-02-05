@@ -1,16 +1,16 @@
 body {
     font-family: Helvetica, sans-serif;
     color: #EAE8FF;
-    background: #2D3142;
+    background: #000000;
     padding: 0 40px;
     text-align: center;
 }
 
 nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
+    margin: 25px auto 0 auto;
+    width: 400px;
+    border-radius: 25px;
+    background: linear-gradient(45deg, rgb(195, 34, 168) 0%, rgb(21, 164, 221) 100%);
 }
 
 nav ul {
@@ -34,17 +34,30 @@ nav ul li a {
 }
 
 h1 {
-    font-size: 8em;
+    font-size: 3em;
     letter-spacing: -2px;
 }
 
 h1 strong {
     background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(45deg, rgb(195, 34, 168) 0%, rgb(21, 164, 221) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
+h2{
+    font-size: 2em;
+}
+
 img.about {
     opacity: 0.5;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+div{
+    font-size: 150%;
+    color:rgb(21, 164, 221);
 }
